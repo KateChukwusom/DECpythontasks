@@ -1,0 +1,12 @@
+README.md
+setup.py
+jira_autopackage.egg-info/PKG-INFO
+jira_autopackage.egg-info/SOURCES.txt
+jira_autopackage.egg-info/dependency_links.txt
+jira_autopackage.egg-info/top_level.txt
+tests/__init__.py
+tests/test2.py
+tests/test3.py
+tests/test4.py
+tests/test44.py
+tests/test_fetch.py
