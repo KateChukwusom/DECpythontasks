@@ -14,7 +14,7 @@ Logging: All steps are logged for audit and debugging.
 The pipeline fetches data from a webform database, generates unique keys, checks which submissions are already processed using a tracker database, maps fields to Jira ticket fields, creates Jira tickets, attaches submission data, and marks them as processed.
 
 ## Project Structure
-
+```
 jiraticket_automation/
 ├── jira_autopackage/
 │   ├── __init__.py
@@ -39,6 +39,7 @@ jiraticket_automation/
 ├── config.py                          # Reads .env for DB & Jira credentials
 ├── .env                               # Stores secrets
 └── main.py                            # Orchestrator: runs full pipeline
+```
 
 ##  Pipeline Modules - Conceptual Flow
 
